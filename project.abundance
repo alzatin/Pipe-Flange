@@ -87,8 +87,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.3968253968253968,
-                    "y": 0.1615598885793872,
+                    "x": 0.38888888888888884,
+                    "y": 0.13370473537604458,
                     "uniqueID": 1744156433098,
                     "ioValues": [
                         {
@@ -164,16 +164,16 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.707010582010582,
-                    "y": 0.27298050139275765,
+                    "x": 0.7242063492063492,
+                    "y": 0.37047353760445684,
                     "uniqueID": 1744156518302,
                     "ioValues": [
                         {
-                            "name": "Shape 1",
-                            "ioValue": 1744156433098
+                            "name": "Shape 3",
+                            "ioValue": 1744157098959
                         },
                         {
-                            "name": "Shape 2",
+                            "name": "Shape 4",
                             "ioValue": 1744156497798
                         }
                     ],
@@ -203,6 +203,23 @@
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "X+50"
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "Metal",
+                    "x": 0.5443121693121693,
+                    "y": 0.3565459610027855,
+                    "uniqueID": 1744157098959,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1744156433098
+                        }
+                    ],
+                    "description": "Tags geometry so that it can be extracted later.",
+                    "tags": [
+                        "Metal"
+                    ]
                 }
             ],
             "allConnectors": [
@@ -222,10 +239,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1744156433098,
-                    "ap2ID": 1744156518302
+                    "ap2ID": 1744157098959
                 },
                 {
                     "ap1Name": "geometry",
@@ -243,7 +260,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
+                    "ap2Name": "Shape 4",
                     "ap2Primary": false,
                     "ap1ID": 1744156497798,
                     "ap2ID": 1744156518302
@@ -275,6 +292,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1744156924698,
                     "ap2ID": 1744156476743
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1744157098959,
+                    "ap2ID": 1744156518302
                 }
             ],
             "fileTypeVersion": 1,
@@ -299,7 +323,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1744156558719
+                            "ioValue": 1744157078682
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -335,6 +359,23 @@
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "Metal",
+                    "x": 0.6130952380952381,
+                    "y": 0.5376044568245125,
+                    "uniqueID": 1744157078682,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1744156558719
+                        }
+                    ],
+                    "description": "Tags geometry so that it can be extracted later.",
+                    "tags": [
+                        "Metal"
+                    ]
                 }
             ],
             "allConnectors": [
@@ -347,20 +388,27 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1744156558719,
+                    "ap2ID": 1744157078682
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1744156558719,
+                    "ap1ID": 1744157078682,
                     "ap2ID": 1744156539917
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.42791005291005285,
-            "y": 0.40111420612813375,
+            "x": 0.42857142857142855,
+            "y": 0.3816155988857939,
             "uniqueID": 1744156573345,
             "ioValues": [
                 {
@@ -849,6 +897,52 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.58994708994709,
+            "y": 0.6880222841225626,
+            "uniqueID": 1744157119513,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1744156573345
+                }
+            ],
+            "description": "Extracts geometry containing the specified tag.",
+            "tag": "Metal",
+            "tagIndex": 0
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.7843915343915343,
+            "y": 0.7158774373259054,
+            "uniqueID": 1744157209239,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1744157119513
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Pipe-Flange"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STL"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "Pipe-Flange"
         }
     ],
     "allConnectors": [
@@ -874,6 +968,13 @@
             "ap2ID": 1744155808952
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1744156573345,
+            "ap2ID": 1744157119513
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "Shape 3",
             "ap2Primary": false,
@@ -886,6 +987,13 @@
             "ap2Primary": false,
             "ap1ID": 1744156868590,
             "ap2ID": 1744156397086
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1744157119513,
+            "ap2ID": 1744157209239
         }
     ],
     "unitsKey": "MM",
