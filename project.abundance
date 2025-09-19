@@ -20,13 +20,7 @@
             "x": 0.9742063492063491,
             "y": 0.2813370473537604,
             "uniqueID": 1744155808952,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1744156573345,
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -38,15 +32,15 @@
             "ioValues": [
                 {
                     "name": "Shape 1",
-                    "ioValue": 1744156539040
+                    "ioValue": null
                 },
                 {
                     "name": "Shape 2",
-                    "ioValue": 1744156397086
+                    "ioValue": null
                 },
                 {
                     "name": "Shape 3",
-                    "ioValue": 1744156595066
+                    "ioValue": null
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -67,13 +61,7 @@
             "x": 0.58994708994709,
             "y": 0.6880222841225626,
             "uniqueID": 1744157119513,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1744156573345,
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Extracts geometry containing the specified tag.",
             "tag": "Metal",
             "tagIndex": 0
@@ -85,11 +73,6 @@
             "y": 0.7258064516129032,
             "uniqueID": 1744157209239,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1744157119513,
-                    "currentEquation": null
-                },
                 {
                     "name": "File Type",
                     "ioValue": "STL",
@@ -118,13 +101,7 @@
             "x": 0.5522486772486772,
             "y": 0.233983286908078,
             "uniqueID": 1744324510747,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1744156573345,
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Extracts geometry containing the specified tag.",
             "tag": "keepout",
             "tagIndex": 0
@@ -151,13 +128,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1744156397487,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1744156518302,
-                            "currentEquation": null
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -289,7 +260,7 @@
                         },
                         {
                             "name": "Shape 4",
-                            "ioValue": 1744156497798
+                            "ioValue": null
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -528,13 +499,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1744156594817,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1744156795176,
-                            "currentEquation": null
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -544,11 +509,6 @@
                     "y": 0.6880222841225626,
                     "uniqueID": 1744156756069,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1744156603119,
-                            "currentEquation": null
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 65,
@@ -583,13 +543,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1744156602715,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1744156670748,
-                                    "currentEquation": null
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -687,13 +641,7 @@
                             "x": 0.6957671957671957,
                             "y": 0.5097493036211699,
                             "uniqueID": 1744156670748,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1744156662528,
-                                    "currentEquation": null
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Changes the color of the shape.",
                             "selectedColorIndex": 20
                         }
@@ -747,11 +695,6 @@
                     "uniqueID": 1744156795176,
                     "ioValues": [
                         {
-                            "name": "Shape",
-                            "ioValue": 1744156756069,
-                            "currentEquation": null
-                        },
-                        {
                             "name": "Number",
                             "ioValue": 6,
                             "currentEquation": null
@@ -771,13 +714,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1744156795203,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1744156795421,
-                                    "currentEquation": null
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -854,11 +791,6 @@
                             "y": 0.6072423398328691,
                             "uniqueID": 1744156795421,
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": 1744156756069,
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 6,
