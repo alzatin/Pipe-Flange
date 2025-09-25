@@ -11,7 +11,6 @@
             "currentEquation": null
         }
     ],
-    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
         {
@@ -20,14 +19,7 @@
             "x": 0.9742063492063491,
             "y": 0.2813370473537604,
             "uniqueID": 1744155808952,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1744156573345,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Connect geometry here to make it available in the next level up. "
+            "ioValues": []
         },
         {
             "atomType": "Assembly",
@@ -38,27 +30,292 @@
             "ioValues": [
                 {
                     "name": "Shape 1",
-                    "ioValue": 1744156539040
+                    "ioValue": {
+                        "geometry": "extrude-circle-80-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7",
+                        "dimension": "3D",
+                        "tags": [
+                            "Metal"
+                        ],
+                        "plane": {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "xDir": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "normal": [
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                    }
                 },
                 {
                     "name": "Shape 2",
-                    "ioValue": 1744156397086
+                    "ioValue": {
+                        "geometry": [
+                            {
+                                "geometry": "cut-extrude-circle-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-350-move-extrude-circle-45-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-400-0-0--20",
+                                "dimension": "3D",
+                                "tags": [
+                                    "Metal"
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "bom": []
+                            },
+                            {
+                                "geometry": "move-extrude-circle-45-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-400-0-0--20",
+                                "dimension": "3D",
+                                "tags": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#E6F3FF",
+                                "bom": []
+                            }
+                        ],
+                        "plane": {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "xDir": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "normal": [
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        "tags": [],
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "dimension": "3D"
+                    }
                 },
                 {
                     "name": "Shape 3",
-                    "ioValue": 1744156595066
+                    "ioValue": {
+                        "geometry": [
+                            {
+                                "geometry": "singular-12",
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#3C3C3C",
+                                "dimension": "3D"
+                            },
+                            {
+                                "geometry": "singular-13",
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#3C3C3C",
+                                "dimension": "3D"
+                            },
+                            {
+                                "geometry": "singular-14",
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#3C3C3C",
+                                "dimension": "3D"
+                            },
+                            {
+                                "geometry": "singular-15",
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#3C3C3C",
+                                "dimension": "3D"
+                            },
+                            {
+                                "geometry": "singular-16",
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#3C3C3C",
+                                "dimension": "3D"
+                            },
+                            {
+                                "geometry": "singular-17",
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#3C3C3C",
+                                "dimension": "3D"
+                            }
+                        ],
+                        "plane": {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "xDir": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "normal": [
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        "tags": [],
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "dimension": "3D"
+                    }
                 }
-            ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+            ]
         },
         {
             "atomType": "Input",
             "name": "Pipe Length",
-            "x": 0.028050000000000002,
+            "x": 0.033,
             "y": 0.34818941504178275,
             "uniqueID": 1744156868590,
             "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
         },
         {
@@ -67,29 +324,17 @@
             "x": 0.58994708994709,
             "y": 0.6880222841225626,
             "uniqueID": 1744157119513,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1744156573345,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Extracts geometry containing the specified tag.",
+            "ioValues": [],
             "tag": "Metal",
             "tagIndex": 0
         },
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7605932203389831,
-            "y": 0.7258064516129032,
+            "x": 0.8270079435127979,
+            "y": 0.48757763975155277,
             "uniqueID": 1744157209239,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1744157119513,
-                    "currentEquation": null
-                },
                 {
                     "name": "File Type",
                     "ioValue": "STL",
@@ -106,7 +351,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Export Atom, let's you choose a type of file to Export.",
             "type": "STL",
             "resolution": 96,
             "importIndex": 0,
@@ -115,25 +359,18 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.5522486772486772,
-            "y": 0.233983286908078,
+            "x": 0.6213592233009708,
+            "y": 0.2391304347826087,
             "uniqueID": 1744324510747,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1744156573345,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Extracts geometry containing the specified tag.",
+            "ioValues": [],
             "tag": "keepout",
             "tagIndex": 0
         },
         {
             "atomType": "Molecule",
             "name": "Pipe",
-            "x": 0.21296296296296294,
-            "y": 0.26740947075208915,
+            "x": 0.21712268314210062,
+            "y": 0.2950310559006211,
             "uniqueID": 1744156397086,
             "ioValues": [
                 {
@@ -142,7 +379,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -151,14 +387,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1744156397487,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1744156518302,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -172,8 +401,7 @@
                             "ioValue": 100,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new circle."
+                    ]
                 },
                 {
                     "atomType": "Circle",
@@ -187,8 +415,7 @@
                             "ioValue": 90,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new circle."
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -198,17 +425,11 @@
                     "uniqueID": 1744156433098,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 1744156404037,
-                            "currentEquation": null
-                        },
-                        {
                             "name": "height",
                             "ioValue": 350,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -218,17 +439,11 @@
                     "uniqueID": 1744156476743,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 1744156417835,
-                            "currentEquation": null
-                        },
-                        {
                             "name": "height",
                             "ioValue": 400,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -237,11 +452,6 @@
                     "y": 0.5376044568245125,
                     "uniqueID": 1744156488971,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1744156476743,
-                            "currentEquation": null
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0,
@@ -257,8 +467,7 @@
                             "ioValue": -20,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Color",
@@ -266,14 +475,7 @@
                     "x": 0.5423280423280423,
                     "y": 0.5988857938718662,
                     "uniqueID": 1744156497798,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1744156488971,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
+                    "ioValues": [],
                     "selectedColorIndex": 22
                 },
                 {
@@ -285,23 +487,69 @@
                     "ioValues": [
                         {
                             "name": "Shape 3",
-                            "ioValue": 1744157098959
+                            "ioValue": {
+                                "geometry": "extrude-circle-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-350",
+                                "dimension": "3D",
+                                "tags": [
+                                    "Metal"
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "bom": []
+                            }
                         },
                         {
                             "name": "Shape 4",
-                            "ioValue": 1744156497798
+                            "ioValue": {
+                                "geometry": "move-extrude-circle-45-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-400-0-0--20",
+                                "dimension": "3D",
+                                "tags": [],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#E6F3FF",
+                                "bom": []
+                            }
                         }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                    ]
                 },
                 {
                     "atomType": "Input",
                     "name": "Pipe Length",
-                    "x": 0.028050000000000002,
+                    "x": 0.033,
                     "y": 0.5933147632311978,
                     "uniqueID": 1744156883264,
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -317,7 +565,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "X+50"
                 },
                 {
@@ -326,14 +573,7 @@
                     "x": 0.5443121693121693,
                     "y": 0.3565459610027855,
                     "uniqueID": 1744157098959,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1744156433098,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Tags geometry so that it can be extracted later.",
+                    "ioValues": [],
                     "tags": [
                         "Metal"
                     ]
@@ -417,7 +657,6 @@
             "y": 0.6323119777158774,
             "uniqueID": 1744156539040,
             "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -426,14 +665,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1744156539917,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1744157078682,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -447,8 +679,7 @@
                             "ioValue": 160,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new circle."
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -458,17 +689,11 @@
                     "uniqueID": 1744156558719,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 1744156552637,
-                            "currentEquation": null
-                        },
-                        {
                             "name": "height",
                             "ioValue": 7,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                    ]
                 },
                 {
                     "atomType": "Tag",
@@ -476,14 +701,7 @@
                     "x": 0.6130952380952381,
                     "y": 0.5376044568245125,
                     "uniqueID": 1744157078682,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1744156558719,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Tags geometry so that it can be extracted later.",
+                    "ioValues": [],
                     "tags": [
                         "Metal"
                     ]
@@ -515,11 +733,10 @@
         {
             "atomType": "Molecule",
             "name": "Bolts",
-            "x": 0.32341269841269843,
-            "y": 0.7883008356545962,
+            "x": 0.324801412180053,
+            "y": 0.7795031055900621,
             "uniqueID": 1744156595066,
             "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -528,14 +745,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1744156594817,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1744156795176,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
+                    "ioValues": []
                 },
                 {
                     "atomType": "Move",
@@ -544,11 +754,6 @@
                     "y": 0.6880222841225626,
                     "uniqueID": 1744156756069,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1744156603119,
-                            "currentEquation": null
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 65,
@@ -564,8 +769,7 @@
                             "ioValue": 7,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -574,7 +778,6 @@
                     "y": 0.42061281337047357,
                     "uniqueID": 1744156603119,
                     "ioValues": [],
-                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -583,14 +786,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1744156602715,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1744156670748,
-                                    "currentEquation": null
-                                }
-                            ],
-                            "description": "Connect geometry here to make it available in the next level up. "
+                            "ioValues": []
                         },
                         {
                             "atomType": "Circle",
@@ -604,8 +800,7 @@
                                     "ioValue": 10,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Creates a new circle."
+                            ]
                         },
                         {
                             "atomType": "Extrude",
@@ -615,17 +810,11 @@
                             "uniqueID": 1744156624232,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1744156620242,
-                                    "currentEquation": null
-                                },
-                                {
                                     "name": "height",
                                     "ioValue": -50,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                            ]
                         },
                         {
                             "atomType": "Circle",
@@ -639,8 +828,7 @@
                                     "ioValue": 15,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Creates a new circle."
+                            ]
                         },
                         {
                             "atomType": "Extrude",
@@ -650,17 +838,11 @@
                             "uniqueID": 1744156654662,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1744156640637,
-                                    "currentEquation": null
-                                },
-                                {
                                     "name": "height",
                                     "ioValue": 6,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                            ]
                         },
                         {
                             "atomType": "Fusion",
@@ -671,14 +853,59 @@
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
-                                    "ioValue": 1744156654662
+                                    "ioValue": {
+                                        "geometry": "extrude-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6",
+                                        "dimension": "3D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    }
                                 },
                                 {
                                     "name": "Shape 2",
-                                    "ioValue": 1744156624232
+                                    "ioValue": {
+                                        "geometry": "extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--50",
+                                        "dimension": "3D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    }
                                 }
                             ],
-                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                             "unionType": "Fusion"
                         },
                         {
@@ -687,14 +914,7 @@
                             "x": 0.6957671957671957,
                             "y": 0.5097493036211699,
                             "uniqueID": 1744156670748,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1744156662528,
-                                    "currentEquation": null
-                                }
-                            ],
-                            "description": "Changes the color of the shape.",
+                            "ioValues": [],
                             "selectedColorIndex": 20
                         }
                     ],
@@ -747,11 +967,6 @@
                     "uniqueID": 1744156795176,
                     "ioValues": [
                         {
-                            "name": "Shape",
-                            "ioValue": 1744156756069,
-                            "currentEquation": null
-                        },
-                        {
                             "name": "Number",
                             "ioValue": 6,
                             "currentEquation": null
@@ -762,7 +977,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -771,41 +985,31 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1744156795203,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1744156795421,
-                                    "currentEquation": null
-                                }
-                            ],
-                            "description": "Connect geometry here to make it available in the next level up. "
+                            "ioValues": []
                         },
                         {
                             "atomType": "Input",
                             "name": "Shape",
-                            "x": 0.028050000000000002,
+                            "x": 0.033,
                             "y": 0.3788300835654596,
                             "uniqueID": 1744156794716,
-                            "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                            "ioValues": []
                         },
                         {
                             "atomType": "Input",
                             "name": "Number",
-                            "x": 0.028050000000000002,
+                            "x": 0.033,
                             "y": 0.8440111420612814,
                             "uniqueID": 1744156794939,
-                            "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                            "ioValues": []
                         },
                         {
                             "atomType": "Input",
                             "name": "Angle",
-                            "x": 0.028050000000000002,
+                            "x": 0.033,
                             "y": 0.5821727019498607,
                             "uniqueID": 1744156794546,
-                            "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                            "ioValues": []
                         },
                         {
                             "atomType": "Circle",
@@ -819,8 +1023,7 @@
                                     "ioValue": 10,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Creates a new circle."
+                            ]
                         },
                         {
                             "atomType": "Move",
@@ -844,8 +1047,7 @@
                                     "ioValue": 0,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Moves a shape laterally in X, Y, Z."
+                            ]
                         },
                         {
                             "atomType": "Code",
@@ -854,11 +1056,6 @@
                             "y": 0.6072423398328691,
                             "uniqueID": 1744156795421,
                             "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": 1744156756069,
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Number",
                                     "ioValue": 6,
@@ -870,7 +1067,6 @@
                                     "currentEquation": null
                                 }
                             ],
-                            "description": "Defines a Replicad code block.",
                             "codeVersion": 1,
                             "code": "//Inputs:[Shape, Number, Angle];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Rotate(Shape, 0, 0, Angle * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
                         },
@@ -886,8 +1082,7 @@
                                     "ioValue": 10,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                            ]
                         }
                     ],
                     "allConnectors": [
