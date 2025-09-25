@@ -24,8 +24,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.416005291005291,
-            "y": 0.39275766016713093,
+            "x": 0.45719329214474846,
+            "y": 0.4440993788819876,
             "uniqueID": 1744156573345,
             "ioValues": [
                 {
@@ -321,8 +321,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.58994708994709,
-            "y": 0.6880222841225626,
+            "x": 0.5992939099735216,
+            "y": 0.7515527950310559,
             "uniqueID": 1744157119513,
             "ioValues": [],
             "tag": "Metal",
@@ -359,7 +359,7 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.6213592233009708,
+            "x": 0.6125330979699911,
             "y": 0.2391304347826087,
             "uniqueID": 1744324510747,
             "ioValues": [],
@@ -369,8 +369,8 @@
         {
             "atomType": "Molecule",
             "name": "Pipe",
-            "x": 0.21712268314210062,
-            "y": 0.2950310559006211,
+            "x": 0.2533097969991174,
+            "y": 0.18944099378881987,
             "uniqueID": 1744156397086,
             "ioValues": [
                 {
@@ -653,8 +653,8 @@
         {
             "atomType": "Molecule",
             "name": "Flange",
-            "x": 0.208994708994709,
-            "y": 0.6323119777158774,
+            "x": 0.18711385701676964,
+            "y": 0.5279503105590062,
             "uniqueID": 1744156539040,
             "ioValues": [],
             "topLevel": false,
@@ -733,8 +733,8 @@
         {
             "atomType": "Molecule",
             "name": "Bolts",
-            "x": 0.324801412180053,
-            "y": 0.7795031055900621,
+            "x": 0.2621359223300971,
+            "y": 0.8664596273291926,
             "uniqueID": 1744156595066,
             "ioValues": [],
             "topLevel": false,
@@ -1175,12 +1175,6 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap1ID": 1744156573345,
-            "ap2ID": 1744155808952
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap1ID": 1744156573345,
             "ap2ID": 1744157119513
@@ -1190,6 +1184,12 @@
             "ap2Name": "geometry",
             "ap1ID": 1744156573345,
             "ap2ID": 1744324510747
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": 1744156573345,
+            "ap2ID": 1744155808952
         },
         {
             "ap1Name": "number or geometry",
